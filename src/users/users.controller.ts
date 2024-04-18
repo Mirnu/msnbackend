@@ -5,7 +5,7 @@ import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { User } from './users.model';
 
 @ApiTags('users')
-@Controller('/users')
+@Controller('users')
 export class UsersController {
     constructor(private usersService: UsersService) {}
 
